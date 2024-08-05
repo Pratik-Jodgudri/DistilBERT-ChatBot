@@ -21,13 +21,13 @@ This project implements a simple question-answering chatbot using the DistilBERT
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/distilbert-chatbot.git
+   git clone https://github.com/Pratik-Jodgudri/DistilBERT-ChatBot.git
    cd distilbert-chatbot
    ```
 
 2. Install the required packages:
    ```
-   pip install flask torch transformers requests
+   pip install -r requirements.txt
    ```
 
 ## Usage
