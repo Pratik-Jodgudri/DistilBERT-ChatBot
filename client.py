@@ -25,7 +25,7 @@ def chat():
 
 
 if __name__ == '__main__':
-    choice = input("Enter 'chat' to start chatting or 'test' to run the test: ")
+    choice = input("Enter 'chat' to start chatting: ")
     if choice.lower() == 'chat':
         chat()
     else:
