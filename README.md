@@ -7,11 +7,10 @@ This project implements a simple question-answering chatbot using the DistilBERT
 - Uses DistilBERT model for question answering
 - Flask-based server for handling requests
 - Simple command-line client interface
-- Includes a test function to verify the chatbot's functionality
 
 ## Requirements
 
-- Python 3.7+
+- Python
 - Flask
 - PyTorch
 - Transformers
@@ -48,9 +47,6 @@ This project implements a simple question-answering chatbot using the DistilBERT
    ```
    python client.py
    ```
-3. Choose whether you want to chat or run a test:
-   - Enter 'chat' to start the chat interface
-   - Enter 'test' to run the test function
 
 ### Chatting with the Bot
 
@@ -68,7 +64,6 @@ This project implements a simple question-answering chatbot using the DistilBERT
 
 - The first run of the server might take some time as it downloads the DistilBERT model.
 - Ensure you have sufficient RAM available, as the model can be memory-intensive.
-- If you encounter CUDA or GPU-related issues, you may need to use a CPU-only version of PyTorch.
 
 ## Contributing
 
